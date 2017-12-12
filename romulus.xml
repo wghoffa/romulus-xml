@@ -4684,25 +4684,6 @@
 	<id>FSI_LINK</id>
 	<value></value>
 	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
-</globalSetting>
-<globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/fsim-1</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>FSI_LINK</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-0/module-0/p9_proc_s/i2c-master-dimm0123</id>
@@ -5464,19 +5445,15 @@
 	</property>
 </globalSetting>
 <globalSetting>
-	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/fsi-slave-0</id>
-	<property>
-	<id>DIRECTION</id>
-	<value></value>
-	</property>
-	<property>
-	<id>FSI_LINK</id>
-	<value></value>
-	</property>
-	<property>
-	<id>IPMI_INSTANCE</id>
-	<value></value>
-	</property>
+        <id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_m/fsi-slave-0</id>
+        <property>
+        <id>DIRECTION</id>
+        <value></value>
+        </property>
+        <property>
+        <id>FSI_LINK</id>
+        <value></value>
+        </property>
 </globalSetting>
 <globalSetting>
 	<id>/sys-0/node-0/motherboard-0/proc_socket-1/module-0/p9_proc_s/i2c-master-dimm0123</id>
@@ -42136,7 +42113,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42263,7 +42240,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x01</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42390,7 +42367,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x02</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42517,7 +42494,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x03</default>
+		<default>3</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42644,7 +42621,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x00</default>
+		<default>0</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42771,7 +42748,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x01</default>
+		<default>1</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
@@ -42898,7 +42875,7 @@
 	</attribute>
 	<attribute>
 		<id>FSI_LINK</id>
-		<default>0x02</default>
+		<default>2</default>
 	</attribute>
 	<attribute>
 		<id>FSI_PORT</id>
